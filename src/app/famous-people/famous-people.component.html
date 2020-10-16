@@ -1,0 +1,7 @@
+<p>famous-people works!</p>
+
+<div *ngIf="people">
+    <div *ngFor = "let p of people.tiny">
+        <a routerLink="/famous-Person" [queryParams]="p">{{p.name}}</a>
+    </div> 
+</div>

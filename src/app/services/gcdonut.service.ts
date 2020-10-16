@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import{ HttpClient } from '@angular/common/http';
 import { Donut } from '../interfaces/donut';
-import { DonutDetailComponent } from '../donut-detail/donut-detail.component';
 
 @Injectable({
   providedIn: 'root'

@@ -2,12 +2,16 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { DonutDetailComponent } from './donut-detail/donut-detail.component';
 import { DonutComponent } from './donut/donut.component';
-import { HallOfFameComponent } from './hall-of-fame/hall-of-fame.component';
+import { FamousPeopleComponent } from './famous-people/famous-people.component';
+import { FamousPersonDetailComponent } from './famous-person-detail/famous-person-detail.component';
+
 
 const routes: Routes = [
   { path: 'donut', component: DonutComponent },
   { path: 'donut-detail', component: DonutDetailComponent},
-  { path: 'hall of fame', component: HallOfFameComponent }
+  { path: 'famous-People', component: FamousPeopleComponent},
+  { path: 'famous-Person', component: FamousPersonDetailComponent},
+  
 ];
 
 @NgModule({
