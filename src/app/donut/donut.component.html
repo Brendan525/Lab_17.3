@@ -1,0 +1,7 @@
+<p>donut works!</p>
+
+<div *ngIf="donut">
+    <div *ngFor = "let d of donut.results">
+        <a routerLink="/donut-detail" [queryParams]="d">{{d.name}}</a>
+    </div> 
+</div>
